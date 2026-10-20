@@ -13,6 +13,7 @@ int main() {
 		scanf(" %c", &sport);
 
 		if (sport == '!') {
+			printf("Работа программы завершена.");
 			break;
 		}
 		printf("Время старта в секундах: ");
