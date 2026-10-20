@@ -34,19 +34,19 @@ void process_stage(int start_sec, int end_sec) {
 	minutes = get_full_minutes(duratation);
 	seconds = duratation % 60;
 
-	printf("Время: ");
+	printf("Р’СЂРµРјСЏ: ");
 	print_time_mm_ss(minutes, seconds);
 
 	if (status == -1) {
-		printf("[Дисквалификация]");
+		printf("[Р”РёСЃРєРІР°Р»РёС„РёРєР°С†РёСЏ]");
 	}
 	else if (status == 1)
 	{
-		printf(" [Рекорд!]");
+		printf(" [Р РµРєРѕСЂРґ!]");
 	}
 	else
 	{
-		printf(" [Норма]");
+		printf(" [РќРѕСЂРјР°]");
 	}
 	printf("\n");
 }
